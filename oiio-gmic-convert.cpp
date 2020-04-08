@@ -1,4 +1,4 @@
-#include "conversionops.h"
+#include "oiio-gmic-convert.h"
 
 bool imageBufToGmic(std::shared_ptr<ImageBuf>& buf, gmic_image<float>& img)
 {
